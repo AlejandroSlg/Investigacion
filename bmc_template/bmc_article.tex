@@ -1,0 +1,422 @@
+
+%%% loading packages, author definitions
+
+%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
+\documentclass{bmcart}
+
+%%% Load packages
+%\usepackage{amsthm,amsmath}
+%\RequirePackage{natbib}
+%\RequirePackage[authoryear]{natbib}% uncomment this for author-year bibliography
+%\RequirePackage{hyperref}
+\usepackage[utf8]{inputenc} %unicode support
+%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                             %%
+%%  If you wish to display your graphics for   %%
+%%  your own use using includegraphic or       %%
+%%  includegraphics, then comment out the      %%
+%%  following two lines of code.               %%
+%%  NB: These line *must* be included when     %%
+%%  submitting to BMC.                         %%
+%%  All figure files must be submitted as      %%
+%%  separate graphics through the BMC          %%
+%%  submission process, not included in the    %%
+%%  submitted article.                         %%
+%%                                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\includegraphic{}
+\def\includegraphics{}
+
+
+
+%%% Put your definitions there:
+\startlocaldefs
+\endlocaldefs
+
+
+%%% Begin ...
+\begin{document}
+
+%%% Start of article front matter
+\begin{frontmatter}
+
+\begin{fmbox}
+\dochead{Investigaci\'on}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the title of your article here     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Impacto de la Tecnología en la sociedad.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors here                   %%
+%%                                          %%
+%% Specify information, if available,       %%
+%% in the form:                             %%
+%%   <key>={<id1>,<id2>}                    %%
+%%   <key>=                                 %%
+%% Comment or delete the keys which are     %%
+%% not used. Repeat \author command as much %%
+%% as required.                             %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author[
+   addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
+   corref={aff1},                       % id of corresponding address, if any                     % id's of article notes, if any
+   email={raul.salcido@tectijuana.edu.mx}   % email address
+]{\inits{RA}\fnm{Ra\'ul A} \snm{Salcido}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\address[id=aff1]{%                           % unique id
+  \orgname{Instituto Tecnolog\'ico de Tijuana}, % university, etc
+  \street{CALZADA TECNOLOGICO SN},                     %
+  \postcode{22414}                                % post or zip code
+  \city{TIJUANA,},                              % city
+  \cny{BC}                                    % country
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter short notes here                   %%
+%%                                          %%
+%% Short notes will be after addresses      %%
+%% on first page.                           %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{artnotes}
+%\note{Sample of title note}     % note to the article
+ % note, connected to author
+\end{artnotes}
+
+\end{fmbox}% comment this for two column layout
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Abstract begins here                 %%
+%%                                          %%
+%% Please refer to the Instructions for     %%
+%% authors on http://www.biomedcentral.com  %%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstractbox}
+
+\begin{abstract} % abstract
+Actualmente se considera a la tecnología como una parte más, una extensión de la innovación del ser humano para poder desenvolverse en su ambiente, teniendo a lo largo del tiempo gran impacto en la vidadel hombre, a este se le conoce como "Impacto Tecnológico", siendo este el análisis de la influencia de la tecnología en las distintas sociedades, ya sea de manera positiva, negativa o neutra. Hasta el día de hoy tanto los avances tecnologícos como los cientificos han sido abrumadores.Todos estos avances nos han beneficiado en muchos aspectos pero no en todos. Hoy contamos a nuestra disposición con muchos de ellos, generando a su vez varias interrogantes ¿Hacia dónde nos todo esto? ¿qué tan beneficioso o peligroso puede ser para nuestra privacidad, para nuestra libertad? ¿hay factores morales y éticos diezmados a causa de estos avances?
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The keywords begin here                  %%
+%%                                          %%
+%% Put each keyword in separate \kwd{}.     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{keyword}
+\kwd{Tecnolog\'ia}
+\kwd{Sociedad}
+\kwd{Impacto}
+\end{keyword}
+
+% MSC classifications codes, if any
+%\begin{keyword}[class=AMS]
+%\kwd[Primary ]{}
+%\kwd{}
+%\kwd[; secondary ]{}
+%\end{keyword}
+
+\end{abstractbox}
+%
+%\end{fmbox}% uncomment this for twcolumn layout
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Main Body begins here                %%
+%%                                          %%
+%% Please refer to the instructions for     %%
+%% authors on:                              %%
+%% http://www.biomedcentral.com/info/authors%%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%% See the Results and Discussion section   %%
+%% for details on how to create sub-sections%%
+%%                                          %%
+%% use \cite{...} to cite references        %%
+%%  \cite{koon} and                         %%
+%%  \cite{oreg,khar,zvai,xjon,schn,pond}    %%
+%%  \nocite{smith,marg,hunn,advi,koha,mouse}%%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
+% <put your article body there>
+
+%%%%%%%%%%%%%%%%
+%% Background %%
+%%
+\section*{Introducción} 
+James Dashner, novelista estadounidense, dijo: ‘’ La tecnología puede usarse para muchas cosas buenas, pero, al final, somos esclavos de la naturaleza y los elementos’’. Si bien, la mente humana es una increíble maquina al idear todo tipo de artefactos fascinantes para suplir  las diversas necesidades que se generan dentro de nuestra sociedad y  este trabajo  consiste en la descripción y análisis sobre el impacto de la tecnología en la vida cotidiana, considerando sus inicios y  desarrollo a través del tiempo, pero, no solo se basa en los resultados positivos que esta ha tenido , sino también en dar una visión general de las consecuencias que ha provocado y  de esta manera, generar consciencia  sobre su uso optimo en la vida diaria.
+
+ \section*{Justificación} 
+ Actualmente,  la tecnología juega un papel fundamental en nuestra sociedad, cada vez es más notoria su presencia en todo ámbito y desde sus inicios ha planteado como uno de sus objetivos: satisfacer las diversas necesidades que se generan en la humanidad.  La  tecnolog\'ia en su mayor parte, ha facilitado el desarollo del ser humano en su entorno y con ello, brindar las herramientas necesarias para solucionar los  problemas que se presenten en nuestra vida cotidiana. Pero a pesar de esto puede que no exista un conocimiento amplio de cómo y por qué fue que se desarrollaron, asi que la razón por la cual se realiza esta investigación es dar a conocer la naturaleza de la creación de nuevas tecnologías y de que manera esta se ha logrado adaptar a nuestro estilo de vida, además, mostrar los aspectos positivos y negativos que ha tenido dentro de los ámbitos: ecológicos, sociológicos y económicos a lo largo de la historia.
+
+\section*{Marco Teórico}
+¿Qué es la Tecnología? La Tecnología se define como el conjunto de conocimientos y técnicas que, aplicados de forma lógica y ordenada, permiten al ser humano modificar su entorno material o virtual para satisfacer sus necesidades, esto es, un proceso combinado de pensamiento y acción con la finalidad de crear soluciones útiles.\smallskip
+
+Responde al deseo y la voluntad que tenemos las personas de transformar nuestro entorno, transformar el mundo que nos rodea buscando nuevas y mejores formas de satisfacer nuestros deseos. La motivación es la satisfacción de necesidades o deseos, la actividad es el desarrollo, el diseño y la ejecución y el producto resultante son los bienes y servicios, o los métodos y procesos[13].\smallskip
+
+Los impactos tecnológicos es el análisis de la influencia de la tecnología en las distintas sociedades, ya sea de manera positiva, negativa o neutra. Dentro de este análisis sobre la actividad tecnológica podemos identificar distintos focos, tales como el impacto tecnológico en la cultura, en el medio ambiente, en la sociedad y como consecuencia de esto, el impacto ideológico que ha tenido sobre las personas.[14]\smallskip
+
+
+\section*{Objetivos Generales}
+\smallskip
+-Dar como la tecnología se relaciona con el ser humano.\smallskip
+
+-Entender que es lo que significa actualmente para nosotros.\smallskip
+
+-Conocer desde cuando esta presente.
+
+\section*{Objetivos Específicos}
+\smallskip
+-Tratar de conocer y entender como es que la tecnología se relaciona hoy en día con el hombre.\smallskip
+
+-Conocer en que áreas de nuestra vida se encuentre para poder analizar que tan importante se ha vuelto para nosotros en relación a tiempos pasados.\smallskip
+
+-Hablar de ciertos ambitos donde se encuentra la tecnología y cuales han sido las repercuciones que esta a traido, tanto buenas como malas.\smallskip
+
+-Brindar al lector más información referente a la tecnología, por medio de la recolección de información traida de manos de distintas fuentes.
+
+\section*{Desarrollo}
+La tecnología en estos momentos se ha vueto parte de nuestras vidas sin duda alguna. Esta se hace presente a lo largo de nuestro dia, al momento de tomar el transporte, al realizar alguna llamada por telefono, cuando enviamos un email, y son estos solo algunos de los muchos ejemplos que podríamos mencionar cuando nos referimos a las tecnologias con las cuales compartimos nuestro día a día, a veces logramos notar que influencia ejerce sobre nosotros, pero la mayor parte de las veces pasa inadvertida.\smallskip
+
+Desde los origenes de la vida humana, el crecimiento y la expansión de la población, y a su vez de la sociedad en conjunto han llevado a cabo la aparación de diferentes tecnologías. La mayoria de ella en  su mayor parte han facilitado el desarrollo de la sociedad, debido a la inquietud del ser humano y su absurda necesidad de encontrar el porqué de las cosas es la razón por la cual el hombre ha ido trabajando y desarrollando nuevas tecnologías.[8]\smallskip
+
+Actualmente se considera a la tecnología como una parte más, una extensión de la innovación del ser humano para poder desenvolverse en su ambiente, el filósofo, critico y profesor Marshall McLuhan las siguientes palabras "Todos los artefactos del hombre, el lenguajes, las leyes, las ideas, las herramientas, la ropa y los ordenadores son extensiones del cuerpo humano...Todo artefacto es un arquetipo de la nueva combinación cultural de nuevos y viejos artefactos es el motor de todo invento y conduce además al amplio uso del invento, que se denomina innovación".esta innovación que hablar el profesro McLuhan se presenta en todos los rincones de nuestros hogares,en la escuela, en el trabajo,pues a través de estas es la manera en la cual el hombre expresa nuevas necesidades que deben ser suplidas ante un mundo que se encuentra en constante cambio.[9]\smallskip 
+
+Ahora es facil notar que todo lo que vemos ha sido transformado y todas estas cosas se han ido innovando, pero en si la tecnología ya esta, solo se va transformando con el paso del tiempo y las necesidades humanas, y todos estos avancespodemos verlos plasmadaos en un sin fin de productos de toda clase, tanto ha sido el avance del conocimiento y la tecnología que no terminamos de analizar un producto nuevo cuando tenemos otro nuevo en vanguardia  listo para ser lanzado, esto ya en nuestras mentes está creando una adaptación a las nuevas tendencias que nos ofrecen, siendo esta ya una tecnología descubierta por nuestros ante pasados.[7]\smallskip
+
+Pero ¿Qué entendemos por tecnología? No podemos simplemente definirlo como al conocimiento,herramientas y tecnicas procedentes de la ciencia, pues hay que considerar que ella en sí es una expresión cultural que se debe entender como una extensión del ser humano, de sus sentimientos, pensamientos y experiencias que le ayudarán a adaptarse mejor a un mundo en constante cambio.\smallskip
+
+Hasta el día de hoy tanto los avances tecnologícos como los cientificos han sido abrumadores.Todos estos avances nos han beneficiado en muchos aspectos pero no en todos. Hoy contamos a nuestra disposición con muchos de ellos, la Internet, celulares, nanotenología, biotecnología, televisores de plasma, implantes tecnológicos y un sin fin de avances y “aparatos” que forman parte de nuestro día día. Pero esto nos genera varias interrogantes ¿Hacia dónde nos todo esto? ¿qué tan beneficioso o peligroso puede ser para nuestra privacidad, para nuestra libertad? ¿hay factores morales y éticos diezmados a causa de estos avances?[2]\smallskip
+
+Sin duda son muchas las interrogantes que nos podemos plantear en relación a estos temas, que en la mayoria de los casos traen polémica, tanto detractores como personas que apoyan ciertas ideas. Ideas que en algunos casos pueden parecer nuevas, pero termina resultando ideas anteriormente planteadas por visionarios en años anteriores.\smallskip
+
+Vivimos en una sociedad tremendamente dependiente de los productos tecnológicos a pesar de que, una vez fuera de la mente humana, es decir, una vez hecha realidad física, y puesta al servicio de los intereses de unos y de otros, la tecnología adquiere autonomía, se rebela y causa, o puede causar, estragos sin límite en la vida del hombre.\smallskip
+
+Nosotros mismos somos los que le hemos dado tanta importancia a nuestras vidas, nosotros fuimos quienes la hicimos indispensable en nuestra vida cotidiana. La tecnología ha tenido desde siempre una relación difícil con el hombre, que es su creador. Por un lado, el hombre se sirve de ella y la utiliza masivamente, depende de ella de forma casi absoluta y basa su supervivencia y la de sus sociedades avanzadas en su existencia y evolución continuada. \smallskip
+
+Lo que actualmente conocemos como progreso, mayormente enfocado en el desarollo económico y crecimiento, no habrían tenido su lugar en el mundo sin la tecnología y la evolución. Muy poco de lo que nos rodea, de lo que se encuentra a nuestro entorno, de lo que hacemos y de lo que en su mayor parte constituye nuestra vida diaria, estaría ahi sin la tecnología. A pesar de todo esto, hay muchos los cuales han rechazado y siguen rechazando la tecnología, debido a que la consideran causa importante de la deshumanización del mundo así como transformar invariablemente nuestra percepción de la vida pues como ya lo mencionamos antes esta adquiere autonomía, rebeldía y poder destructivo, además de incluir la estrecha relación entre ella y su creador el hombre.[5]\smallskip
+
+Con el paso de los tiempos nos hemos dado cuenta que la creación de tecnología parace ser una característica innata del hombre, algo bueno para unos y una terrible noticia para otros, mayormente para quellos que se encuentran en disgusto con el mundo actual, tan artificial y tecnologíco. Esta característica innata del hombre es la que lo llevo a diferenciarse de otros animales y que lo han ayudado a su evolución de una manera espectacular.\smallskip
+
+Si admitimos que hay una estrecha relación entre la tecnología y lo humano, es obligado deducir la antigüedad de nuestro mundo en el proceso de creación de nuevas tecnologías. Estos procesos nunca habian sido tan rápidos e intensos como lo son en la actualidad. La modernización, unida con frecuencia a la tecnología, durante siglos constituyo un fenomeno lento, manejable y sobre todo aceptable, que mayormente producía resultados positivos para el conjunto de la sociedad.\smallskip
+
+El siglo XX, un siglo intensamente industrial y tecnológico, es el que nos brinda una perspectiva impresionante refiriendonos a la evolción tecnológica. Lo que antes era considerado como simples sueños en otras epocas se volvio una realidad delante de los ojos de los mismos habitantes del siglo, podemos mencionar como ejemplo la idea de volar, la comunicación a distancia, la producción y control de la energía, dominar la materia por medio de sus interrelaciones químicas, crear alimentos sin limite independientes del sol y de la lluvia, curar enfermedades y extender la vida de las personas, dominar algunas inclemencias del tiempo,etc.[1,4]\smallskip
+
+Podemos decir ahora que hemos creado un mundo artifical del que dependemos inevitablemente para vivir. Es decir, hemos creado un mundo artificial pero humano en su profundidad,ya qe ha surgido del hombre mismo dando libertad a su naturaleza más profunda y a sus características más genuinas.\smallskip
+
+\subsection*{La Tecnología y el Medio Ambiente}
+\smallskip
+\subsubsection*{Problemas medioambientales provocados por las actividades tecnológicas}
+Desertizacón, impacto medioambiental de obras tecnológicas, la contaminación, generación de residuos son algunos ejemplos de las consecuencias de las actividades humanas, iniciando desde la obtención de materia prima, hasta el desecho de los residuos de la elaboración de un prodcuto tecnológico, todas estas pueden tener grandes consecuencias para la conservación del medio ambiente.\smallskip
+
+\textbf{Impacto ambiental directo:} 
+Presente por la ejecución de obras públicas y las explotaciones mineras modifican el ecosistema en que habitan muchas especias animales y vegetales.\smallskip
+
+\textbf{Desertización:} 
+ La superficie desértica del planeta se encuentra en aumento, dando lugar al empobrecimiento del suelo, lo cual perjudica las actividades agrícolas y ganaderas de la región afectada.\smallskip
+ 
+ \textbf{Contaminación: }
+ Posiblemente el más apreciable y conocido de todos. Algunas consecuencias de la contaminación del aire son el calentamiento global del planeta debido al efecto invernadero o la disminución en el grosor de la capa de ozono.\smallskip
+ 
+ \textbf{Generación de Residuos: }
+ Determinadas actividades tecnológicas generan residuos muy contaminantes que resultan difíciles de eliminar, como algunos materiales plásticos o los residuos nucleares.\smallskip
+ 
+ \subsection*{La tecnología al servicio del medio ambiente. [10]}
+ 
+ La tecnología puede servir a la conservación del medio ambiente. Podemos ejemplificar esto con la predicción de incendios forestales, el reciclaje de determinados materiales o la utilización de fuentede energía alternas.\smallskip
+ 
+ La predicción y la extinción de incendios forestales se lleva a cabo mediante satélites artificiales. El reciclaje de determinados productos, como el vidrio, el papel, etc., puede evitar la sobreexplotación de algunas materias primas (madera, etc.). as fuentes de energía renovables, como la energía solar, la eólica o la geotérmica no se agotan y, en general, contaminan menos que las fuentes no renovables, como el carbón o el petróleo.\smallskip
+ 
+ Es decir, con la tecnología en general no ha escatimado para poder desarrollarse rápidamente, pero en la mayoria de los casos, deteriorando el del medio ambiento incluyendonos a nosotros los seres humanos, llevando asi la naturaleza a su muerte y a nosotros junto con ella.\smallskip
+ 
+ \subsection*{La Tecnología en la Sociedad [3,6,11]}
+ \smallskip
+ 
+ La tecnología avanza y va introduciéndose cada vez más en nuestra vida diaria,  lo que ha generado un importante cambio en nuestra forma de relacionarnos y de comunicarnos.\smallskip
+ 
+ El uso de Internet desde la infancia ha hecho que las nuevas generaciones se lleven cada vez mejor con la tecnología, que lleguen a usarla casi por instinto y que manejen un amplio conocimiento tecnológico a temprana edad.\smallskip
+ 
+ Algo tanto positivo como negativo; positivo en el sentido de que la tecnología se ha vuelto un aporte en materia educativa, y negativo por el cambio que genera en la forma que tienen los niños y adolescentes para establecer relaciones con sus pares, considerando también los altos riesgos al difundirse información en la red.\smallskip
+
+ En algunos casos la tecnología puede afectar de manera muy negativa a los niños y jóvenes, porque puede provocar aislamiento del mundo real, debido a que pasan muchas horas navegando en internet, chateando o jugando videojuegos, y pierden parte importante del tiempo que podrían utilizar haciendo otras actividades con sus semejantes.\smallskip
+ 
+ \subsection*{La Tecnología en la Economia [12]}
+ \smallskip
+ 
+ El cambio tecnológico se manifiesta en distintos ámbitos de la economía, la inversión de las empresas en innovaciones tecnológicas de información es cada vez mayor. A su vez las compañías reconocen la importancia del aprendizaje del capital humano en este proceso y su desarrollo como pieza integral de un industria creciente.\smallskip
+ 
+ Las tecnologías, aunque no son objeto específico de estudio de la Economía, han sido a lo largo de toda la historia y son actualmente parte imprescindible de los procesos económicos, es decir, de la producción e intercambio de cualquier tipo de bienes y servicios.\smallskip
+ 
+ Desde el punto de vista de los productores de bienes y de los prestadores de servicios, las tecnologías son el medio indispensable para obtener renta. Desde el punto de vista de los consumidores, las tecnologías les permiten obtener mejores bienes y servicios, usualmente (pero no siempre) más baratos que los equivalentes del pasado.Desde el punto de vista de los trabajadores, las tecnologías disminuyen los puestos de trabajo al reemplazarlos crecientemente con máquinas.\smallskip
+ 
+ Los impactos de la tecnología pueden diferenciarse en impacto positivo y negativo.\smallskip
+ 
+ \subsubsection*{Impactos Positivos: }
+ \smallskip
+ -Aumento del tiempo de ocio.\smallskip
+ 
+ -Disminución de los esfuerzos.\smallskip
+ 
+ -Generación de nuevos puestos de trabajo.\smallskip
+ 
+ -Aumento de la productividad del trabajo humano.\smallskip
+ 
+ -Aumento del nivel de vida.\smallskip
+ 
+ -Potencial disminución de la jornada laboral.\smallskip 
+ 
+ -Automatizacións positivos.\smallskip
+ 
+ \subsubsection*{Impactos Negativos: }
+ \smallskip
+ -Desocupación.\smallskip
+ 
+ -Estratificación social.\smallskip
+ 
+ -Obsolescencia humana.\smallskip
+ 
+ -Transformación de costumbres, modos de vida y visiones del mundo, estrés.\smallskip
+ 
+ -Consumismo, en detrimento de los valores espirituales.\smallskip
+ 
+ -Contaminación del ambiente.\smallskip
+\section*{Conclusiones}
+La tecnología se a arraigado demasiado en nuestra vida, se ha vuelto indispensable para todos y cada uno de nosotros. Sin embargo todo avance tecnológico afecta directa o indirectamente a nosotros, trayendo consigo tanto efectos positivos como negativos.\smallskip
+
+Todo nuestro entorno esta en constante cambio, mejorandose y adaptandose consigo a las necesidades humanas que de igual manera cambian, pero debe en nosotros siempre existir la conciencia al momento de utilizarlos, aun cuando esta sea una extension del humano en si puede llegar a ser perjudicial para cada uno de nosotros.\smallskip
+
+Personalmente creo que no deberíamos darle tanto poder a la tecnología como se lo estamos dando hoy en día, en todo el transcurso de la evolución tecnológica en la que estamos envueltos hemos perdido varias aspectos propios del ser humano, no hemos vuelto un poco más "insensible" , nos hemos deshumanizado un poco, aislando del mundo real. 
+
+
+\section*{Referencias}
+[1]http://www.tendencias21.net/Las-dos-caras-de-la-tecnologia\_a40.html\smallskip
+
+[2]http://www.expresionbinaria.com/hacia-donde-nos-lleva-la-tecnologia/\smallskip
+
+[3]http://www.tribunasalamanca.com/noticias/la-tecnologia-actual-en-nuestra-sociedad/1369849795\smallskip
+
+[4]http://www.tendencias21.net/tecnohumano/Impacto-de-la-tecnologia-en-la-sociedad\_a3.html\smallskip
+
+[5]http://www.fmmeducacion.com.ar/Recursos/tecnociencia.htm\smallskip
+
+[6]http://es.slideshare.net/ChikoMaya/impacto-de-la-tecnologa-en-la-sociedad-moderna\smallskip
+
+[7]http://grupo4herramientasinformatica.blogspot.mx/2015/09/analisis-critico-de-la-tecnologia-en-la.html\smallskip
+
+[8]http://miguelcraig.blogspot.mx/\smallskip
+
+[9]http://www.razonypalabra.org.mx/anteriores/n38/nbuitron.html\smallskip
+
+[10]http://eticainformatica.obolog.es/tecnologia-medio-ambiente-62302\smallskip
+
+[11]https://www.fayerwayer.com/2012/07/la-tecnologia-y-las-relaciones-interpersonales-como-nos-afecta/\smallskip
+
+[12]http://impactodelatecnologiaenlaeconomia.blogspot.mx/\smallskip
+
+[13]http://peapt.blogspot.mx/p/que-es-la-tecnologia.html\smallskip
+
+[14]http://www.fmmeducacion.com.ar/Recursos/tecnociencia.htm\smallskip
+
+
+%\nocite{oreg,schn,pond,smith,marg,hunn,advi,koha,mouse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Backmatter begins here                   %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{backmatter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  The Bibliography                       %%
+%%                                                         %%
+%%  Bmc_mathpys.bst  will be used to                       %%
+%%  create a .BBL file for submission.                     %%
+%%  After submission of the .TEX file,                     %%
+%%  you will be prompted to submit your .BBL file.         %%
+%%                                                         %%
+%%                                                         %%
+%%  Note that the displayed Bibliography will not          %%
+%%  necessarily be rendered by Latex exactly as specified  %%
+%%  in the online Instructions for Authors.                %%
+%%                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ % Bibliography file (usually '*.bib' )
+% for author-year bibliography (bmc-mathphys or spbasic)
+% a) write to bib file (bmc-mathphys only)
+% @settings{label, options="nameyear"}
+% b) uncomment next line
+%\nocite{label}
+
+% or include bibliography directly:
+% \begin{thebibliography}
+% \bibitem{b1}
+% \end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Figures                       %%
+%%                               %%
+%% NB: this is for captions and  %%
+%% Titles. All graphics must be  %%
+%% submitted separately and NOT  %%
+%% included in the Tex document  %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Do not use \listoffigures as most will included as separate files
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Tables                        %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Use of \listoftables is discouraged.
+%%
+
+
+\end{backmatter}
+\end{document}
